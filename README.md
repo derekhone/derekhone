@@ -31,6 +31,14 @@ Payment authorization is the first production deployment boundary. The same arch
 |-----------|--------|
 | [executionproof-testbeds](https://github.com/derekhone/executionproof-testbeds) `/ep-sec-001-009/` | EP-SEC — adversarial bypass testing against the enforcement boundary. Includes EP-SEC-009 FAIL (direct tool invocation bypass) and EP-SEC-009b PASS (remediation). [Zenodo DOI](https://doi.org/10.5281/zenodo.21940858) |
 
+### ⚙️ Intent Binding & Authority Partitioning
+| Series | Location | Experiments | Status |
+|--------|----------|------------|--------|
+| Intent Binding (IB-001–003) | [executionproof-testbeds](https://github.com/derekhone/executionproof-testbeds/tree/main/intent-binding) `/intent-binding/` | 3 | IB-001 FAIL (K2) → IB-002 FAIL (K3) → IB-003 PASS (12/12) — validated remediation sequence |
+| Authority Partitioning (AUTH-001–002) | [executionproof-testbeds](https://github.com/derekhone/executionproof-testbeds/tree/main/authority-partitioning) `/authority-partitioning/` | 2 | AUTH-001 PASS (18/18 separation-of-duties), AUTH-002 PASS (18/18 composition safety) |
+
+These experiments test whether authenticated human intent survives machine transformation (Intent Binding) and whether independently authorized actions compose safely under separation-of-duties constraints (Authority Partitioning). Full evidence packages (preregistrations, ledgers, ProofRecords, per-experiment results) and the connecting RESEARCH-NOTE-001 are in the linked subdirectories.
+
 ### ⚛️ Quantum Witness Research
 | Repository | Series |
 |-----------|--------|
@@ -62,11 +70,11 @@ Payment authorization is the first production deployment boundary. The same arch
 
 ## Numbers (August 2026)
 
-- **101** documented design-before-execution experiments across **10 series**
-- **92 PASS · 6 preserved FAIL · 3 remediated FAIL→PASS** — negatives preserved, not deleted
+- **106** documented design-before-execution experiments across **12 research families**
+- **95 PASS · 8 preserved FAIL · 4 remediated FAIL→PASS** — negatives preserved, not deleted
 - **3 special status:** 1 GATE-STOP · 1 SMOKE-PASS · 1 NOT-EXECUTED
 - **16** public repositories
-- **85+** Zenodo depositions — [remnant-fieldworks community](https://zenodo.org/communities/remnant-fieldworks/)
+- **83** Zenodo depositions — [remnant-fieldworks community](https://zenodo.org/communities/remnant-fieldworks/)
 - **56** USPTO patent filings (48 provisional + 8 nonprovisional) — applications pending
 - **Hardware-backed ML-DSA-65** post-quantum signing live via AWS KMS
 
@@ -79,7 +87,7 @@ Internal/founder-led experimental corpus; independent academic validation is the
 Every experiment in this portfolio follows the same discipline:
 **Document before execution → define kill conditions → execute → publish outcome regardless of result.**
 
-Negative results are preserved. Remediation experiments are run and preregistered separately — they do not overwrite the original FAIL (see EP-SEC-009 → 009b, ARK-445 → 445b, ARK-455 → 455b). Claims are narrowed when evidence demands it. The CIF Phase 1 closure is the clearest example: when the data did not support the stronger "Unified" designation, the name was retired and the claim narrowed. That is the standard.
+Negative results are preserved. Remediation experiments are run and preregistered separately — they do not overwrite the original FAIL (see EP-SEC-009 → 009b, ARK-445 → 445b, ARK-455 → 455b, IB-001 → IB-003). Claims are narrowed when evidence demands it. The CIF Phase 1 closure is the clearest example: when the data did not support the stronger "Unified" designation, the name was retired and the claim narrowed. That is the standard.
 
 ---
 
