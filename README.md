@@ -74,7 +74,7 @@ These experiments test whether authenticated human intent survives machine trans
 - **95 PASS · 8 preserved FAIL · 4 remediated FAIL→PASS** — negatives preserved, not deleted
 - **3 special status:** 1 GATE-STOP · 1 SMOKE-PASS · 1 NOT-EXECUTED
 - **16** public repositories
-- **83** Zenodo depositions — [remnant-fieldworks community](https://zenodo.org/communities/remnant-fieldworks/)
+- **86** Zenodo depositions — [remnant-fieldworks community](https://zenodo.org/communities/remnant-fieldworks/)
 - **56** USPTO patent filings (48 provisional + 8 nonprovisional) — applications pending
 - **Hardware-backed ML-DSA-65** post-quantum signing live via AWS KMS
 
