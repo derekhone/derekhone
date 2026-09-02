@@ -63,7 +63,8 @@ These experiments test whether authenticated human intent survives machine trans
 | Repository | Role |
 |-----------|-------|
 | [cif-phase1-testbeds](https://github.com/derekhone/cif-phase1-testbeds) | Phase 1 - closed falsification program (4 confirmed, 5 falsified) |
-| [cif-phase1-testbeds](https://github.com/derekhone/cif-phase1-testbeds) `/cif-laad-stage0/` | CIF-LAAD Stage 0 - coherence-gated inheritance falsification + batch-mode observation (SIMULATION-ONLY, TRL 3). Pre-registered hypothesis FALSIFIED. [Zenodo DOI](https://doi.org/10.5281/zenodo.22242729) |
+| [cif-phase1-testbeds](https://github.com/derekhone/cif-phase1-testbeds) `/cif-laad-stage0/` | CIF-LAAD Stage 0 - coherence-gated inheritance falsification + batch-mode observation (SIMULATION-ONLY, TRL 3). Pre-registered hypothesis FALSIFIED. |
+| [cif-phase1-testbeds](https://github.com/derekhone/cif-phase1-testbeds) `/cif-laad-validation-series/` | CIF-LAAD Validation Series - 8 preregistered experiments (42 scenario-mode units, 30 seeds each). Track continuity, false-track suppression, provenance validated; coherence-gate and identity-stability falsified; Stone-Soup/SORT benchmark pending. [Zenodo DOI](https://doi.org/10.5281/zenodo.22255738) |
 | [cif-ancient-systems-test-series](https://github.com/derekhone/cif-ancient-systems-test-series) | Ancient systems case studies - 16 records |
 | [inheritance-math](https://github.com/derekhone/inheritance-math) | IMF Python library + formal whitepaper - v1.2.1 |
 
@@ -76,15 +77,15 @@ These experiments test whether authenticated human intent survives machine trans
 
 **95 PASS · 8 preserved FAIL · 4 remediated FAIL→PASS** - negatives preserved, not deleted
 **3 special-status:** 1 GATE-STOP · 1 SMOKE-PASS · 1 NOT-EXECUTED
-**16** public repositories · **86** Zenodo depositions · **56** USPTO patent filings (48 provisional + 8 non-provisional) - applications pending
+**16** public repositories · **86** Zenodo depositions · **8** pending non-provisional USPTO patent applications
 **Hardware-backed ML-DSA-65** post-quantum signing live via AWS KMS
 
 *On September 1, 2026, Remnant Fieldworks Inc. submitted NSF PESOSE Track 3 Proposal #2641427 titled "ExecutionProof - An Open-Source Ecosystem for Verifiable Pre-Execution Authorization of Autonomous Actions." The proposal references a founder-led experimental corpus of 106 preregistered experiments across 12 research families. Submission does not constitute NSF endorsement, peer review, validation, or award.*
 
 ### Current Research Record - live (September 2026)
-**106** canonical experiments (frozen at federal snapshot) + **CIF-LAAD Stage 0** (candidate study; experimental-unit definition pending ratification as a new research family)
-**87** Zenodo depositions - [remnant-fieldworks community](https://zenodo.org/communities/remnant-fieldworks/) - latest: [CIF-LAAD Stage 0](https://doi.org/10.5281/zenodo.22242729) (published 2026-09-02)
-**16** public repositories · **56** USPTO patent filings - all other figures unchanged from federal snapshot.
+**106** canonical experiments (frozen at federal snapshot) + **CIF-LAAD Validation Series** (8 experiments, 42 scenario-mode units; candidate study pending ratification as a new research family)
+**91** Zenodo depositions - [remnant-fieldworks community](https://zenodo.org/communities/remnant-fieldworks/) - latest: [CIF-LAAD Validation Series](https://doi.org/10.5281/zenodo.22255738) (published 2026-09-02)
+**16** public repositories · **8** pending non-provisional USPTO patent applications - all other figures unchanged from federal snapshot.
 
 Internal/founder-led experimental corpus; independent academic validation is the next phase.
 
